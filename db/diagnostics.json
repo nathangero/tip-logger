@@ -1,29 +1,119 @@
 [
-  {
-    "time": 1616087173408,
-    "error_id": "249911fc-ce9d-4905-a934-745845b41c7a",
-    "errors": {
-      "tip:": "",
-      "topic": "Gaming is not a valid topic",
-      "username": ""
+    {
+        "time": 1616087173408,
+        "error_id": "249911fc-ce9d-4905-a934-745845b41c7a",
+        "errors": {
+            "tip:": "",
+            "topic": "Gaming is not a valid topic",
+            "username": ""
+        }
+    },
+    {
+        "time": 1616087196372,
+        "error_id": "a27c0017-0ac4-4f81-83a4-2adcb42737c3",
+        "errors": {
+            "tip:": "Tip must be at least 15 characters long",
+            "topic": "",
+            "username": ""
+        }
+    },
+    {
+        "time": 1616087317843,
+        "error_id": "ca0616fa-f603-4d85-a9c6-fa62c73a9bf9",
+        "errors": {
+            "tip:": "Tip must be at least 15 characters long",
+            "topic": "",
+            "username": " Username is too short"
+        }
+    },
+    {
+        "time": "2023-10-26T19:12:59.098Z",
+        "error_id": "1b9ade57-9132-4252-a8a2-e6080918751f",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "Tip must be at least 15 characters",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:13:54.523Z",
+        "error_id": "ec9ae32e-01c0-4545-81f1-d215cb9fbd85",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "Tip must be at least 15 characters",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:15:25.906Z",
+        "error_id": "dcd72160-686e-4595-8b8e-b558aec3adb1",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "Tip must be at least 15 characters",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:15:33.932Z",
+        "error_id": "045d6596-6158-44a4-a739-9871fc49d2f7",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "Tip must be at least 15 characters",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:16:45.597Z",
+        "error_id": "16c709b7-5bc2-49cf-8b3a-4b0eb885b393",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:16:55.528Z",
+        "error_id": "d37e0444-ba25-45d4-b0a1-20ba2c08b3aa",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:18:09.580Z",
+        "error_id": "a7efaed1-2557-40e5-9223-7d154a7b2b47",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:19:11.986Z",
+        "error_id": "409f9777-42e0-41ae-ba16-7ee0ced2d603",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:19:17.051Z",
+        "error_id": "3d1dbe9d-f911-4665-b9d4-e60f821a5b8f",
+        "errors": {
+            "username": "Invalid username!",
+            "tip": "Tip must be at least 15 characters",
+            "topic": ""
+        }
+    },
+    {
+        "time": "2023-10-26T19:19:28.731Z",
+        "error_id": "2ae7fa30-0216-4b0b-8e0e-d0a3732cf7b8",
+        "errors": {
+            "username": "",
+            "tip": "Tip must be at least 15 characters",
+            "topic": ""
+        }
     }
-  },
-  {
-    "time": 1616087196372,
-    "error_id": "a27c0017-0ac4-4f81-83a4-2adcb42737c3",
-    "errors": {
-      "tip:": "Tip must be at least 15 characters long",
-      "topic": "",
-      "username": ""
-    }
-  },
-  {
-    "time": 1616087317843,
-    "error_id": "ca0616fa-f603-4d85-a9c6-fa62c73a9bf9",
-    "errors": {
-      "tip:": "Tip must be at least 15 characters long",
-      "topic": "",
-      "username": " Username is too short"
-    }
-  }
 ]

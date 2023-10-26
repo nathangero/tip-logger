@@ -107,6 +107,8 @@ const validateTip = (newTip) => {
     errors: errorState,
   };
 
+  console.log("result:", result);
+
   // Return result object with a isValid boolean and an errors object for any errors that may exist
   return result;
 };
@@ -122,13 +124,23 @@ const showErrors = (errorObj) => {
 };
 
 // Helper function to send a POST request to the diagnostics route (/api/diagnostics)
-const submitDiagnostics = (submissionObj) => {
+const submitDiagnostics = (submissionObj) => 
   // TODO: your code here
-  console.info(
-    '⚠️ Create the logic for the fetch POST request in scripts/index.js'
-  );
-  alert('Add your logic to scripts/index.js');
-};
+  fetch('/api/diagnostics', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(submissionObj),
+  })
+  .then((response) => response.json())
+  .then((data) => {
+    alert(data);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+  });
+
 
 // Function to handle when a user submits the feedback form
 const handleFormSubmit = (e) => {
