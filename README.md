@@ -1,1 +1,1 @@
-# tip-logger
+# Tip Logger
